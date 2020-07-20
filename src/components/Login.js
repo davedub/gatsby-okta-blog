@@ -7,7 +7,7 @@ const config = {
   clientId: "0oacjgy571F523Ify4x6",
   logo: "//logo.clearbit.com/gatsbyjs.org",
   redirectUri:
-    typeof window !== "undefined" && window.location.origin + "account/",
+    typeof window !== "undefined" && window.location.origin + "/account/",
   el: "#signIn",
   authParams: {
     pkce: true,
