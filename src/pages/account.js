@@ -25,7 +25,8 @@ class Account extends React.Component {
   async componentDidMount() {
     const token = await signIn.authClient.tokenManager.get('idToken');
     if (token) {
-      this.setState({user: token.claims.name});
+      this.setState({ user: token.claims.name });
+      navigate("/account/")
     } else {
       // Token has expired
       this.setState({user: false});
