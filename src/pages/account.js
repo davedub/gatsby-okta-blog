@@ -54,8 +54,8 @@ class Account extends React.Component {
       <>
         <nav>
           <Link to="/">Home</Link>{' '}
-          <Link to="/account">My Account</Link>{' '}
-          <Link to="/account/settings">Settings</Link>{' '}
+          <Link to="/account/">My Account</Link>{' '}
+          <Link to="/account/settings/">Settings</Link>{' '}
         </nav>
         <h1>My Account</h1>
         <React.Fragment>
