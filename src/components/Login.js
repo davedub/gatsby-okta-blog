@@ -40,7 +40,7 @@ export default class Login extends React.Component {
       // clear parameters from browser window
       window.location.hash = '';
       // set window to post-login URL
-	      location.assign("/account/") 
+	    window.location.assign("/account/") 
       // set username in state
       this.setState({user: session.login});
       localStorage.setItem('isAuthenticated', 'true');
